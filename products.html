@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/products.css">
+</head>
+<body>
+
+<header class="top-header">
+
+    <button class="back-btn">←</button>
+
+    <div>
+        <h2>RAW RICE</h2>
+        <p>Rice → Raw Rice</p>
+    </div>
+
+    <button class="cart-btn">🛒</button>
+
+</header>
+
+<div class="container">
+
+    <aside class="sidebar">
+
+        <button class="active">Raw Rice</button>
+        <button>Steam Rice</button>
+        <button>Boiled Rice</button>
+        <button>Jeera Rice</button>
+        <button>Dosa Rice</button>
+        <button>Idly Rice</button>
+
+    </aside>
+
+    <main>
+
+        <div class="toolbar">
+
+            <input
+            id="search"
+            type="text"
+            placeholder="Search Product">
+
+            <select id="brandFilter">
+                <option value="">All Brands</option>
+            </select>
+
+        </div>
+
+        <div id="productContainer"></div>
+
+    </main>
+
+</div>
+
+<script src="js/products.js"></script>
+
+</body>
+</html>
