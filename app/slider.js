@@ -2,7 +2,7 @@ const images = [
 "images/banner1.jpg",
 "images/banner2.jpg",
 "images/banner3.jpg"
-];
+];js/
 
 let current = 0;
 
